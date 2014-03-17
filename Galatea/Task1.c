@@ -1,3 +1,5 @@
+// http://ideone.com/XSif8D
+
 #include<stdio.h>
 
 float Average(int A[], int N){
