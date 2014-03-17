@@ -16,6 +16,8 @@ float Absolute(float A){
     return A;
 }
 
+
+//Unused function
 float MaxOf(float A, float B){
 	if (A>B)
 		return A;
@@ -37,6 +39,7 @@ int solution(int A[], int N) {
     float MaxDev = Absolute(A[i]-Avg);
     
     for(i=1;i<N;i++){
+    	//find max or Extreme
     	if(MaxDev < Absolute(A[i]-Avg) ){
     		MaxDev = Absolute(A[i]-Avg);
     		index = i;
